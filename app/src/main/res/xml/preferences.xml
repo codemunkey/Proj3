@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<CheckBoxPreference-->
+        <!--android:title="Show Call UI"-->
+        <!--android:defaultValue="true"-->
+        <!--android:summary="Show Call Interface when clicking call button"-->
+        <!--android:key="checkboxPref" />-->
+
+    <ListPreference
+        android:key="pref_list"
+        android:title="Info"
+        android:summary="Select which site to get JSON data from"
+        android:entries="@array/JSON_URL_NAME"
+        android:entryValues="@array/JSON_URL" />
+
+
+</PreferenceScreen>
